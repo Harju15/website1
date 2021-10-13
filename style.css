@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.top {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 8rem;
+  position: relative;
+}
+
+.first-image {
+  width: 100%;
+  position: relative;
+}
+
+.book2 {
+  position: relative;
+  margin-top: 30px;
+  width: 22rem;
+}
+
+p {
+  margin: 2rem;
+}
+
+::-webkit-scrollbar {
+  background-color: #753422;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(60deg, #b05b3b, #ffebc9);
+}
+
+.second-part {
+  background-color: #b05b3b;
+  height: 16rem;
+}
+
+.submit {
+  width: 15.5rem;
+  font-family: "Times New Roman", Times, serif;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #b05b3b, #ffebc9);
+  background-image: -moz-linear-gradient(top, #b05b3b, #ffebc9);
+  background-image: -ms-linear-gradient(top, #b05b3b, #ffebc9);
+  background-image: -o-linear-gradient(top, #b05b3b, #ffebc9);
+  background-image: linear-gradient(to bottom, #b05b3b, #ffebc9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+
+  text-decoration: none;
+
+  position: relative;
+  left: 1.4rem;
+}
+
+.subscribe {
+  width: 15rem;
+}
+
+.icons {
+  position: relative;
+  left: 70%;
+  bottom: 55px;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 2px;
+}
+.textpic {
+  position: absolute;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 25px;
+}
+
+.picbtn {
+  background-image: -webkit-linear-gradient(top, #b05b3b, #ffebc9);
+  background-image: -moz-linear-gradient(top, #b05b3b, #ffebc9);
+  background-image: -ms-linear-gradient(top, #b05b3b, #ffebc9);
+  background-image: -o-linear-gradient(top, #b05b3b, #ffebc9);
+  background-image: linear-gradient(to bottom, #b05b3b, #ffebc9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+
+  text-decoration: none;
+
+  position: relative;
+  top: 2.5rem;
+}
+
+.products {
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+}
+
+.items {
+  margin-bottom: 10px;
+}
+
+.reviews {
+  height: 30rem;
+  background-color: #753422;
+}
+
+.reviewbox {
+  height: 20rem;
+  width: 13rem;
+  background-color: #ffebc9;
+  margin: auto;
+  padding: 2rem;
+  position: relative;
+  top: 2.5rem;
+}
+
+.items1 {
+  height: 9rem;
+  width: 9rem;
+  padding: 0;
+  margin: 0;
+  display: block;
+  margin: auto;
+}
